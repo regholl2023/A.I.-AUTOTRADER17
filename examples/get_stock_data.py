@@ -5,8 +5,8 @@ import datetime
 
 
 ENDPOINT = 'https://paper-api.alpaca.markets'
-KEY = ''
-SECRET = ''
+KEY = 'PK8YQAS5PTGDQX03HH2G'
+SECRET = 'Hun2maLTmgrIpks7i74cc5VCink2emBKRuJ1duOH'
 paper=True
 
 
