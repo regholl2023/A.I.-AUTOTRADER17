@@ -2,15 +2,10 @@ from alpaca.data import StockHistoricalDataClient
 from alpaca.data.timeframe import TimeFrame
 from alpaca.data.requests import StockBarsRequest
 import datetime
+import config
 
 
-ENDPOINT = 'https://paper-api.alpaca.markets'
-KEY = 'PK8YQAS5PTGDQX03HH2G'
-SECRET = 'Hun2maLTmgrIpks7i74cc5VCink2emBKRuJ1duOH'
-paper=True
-
-
-client = StockHistoricalDataClient(api_key=KEY, secret_key=SECRET)
+client = StockHistoricalDataClient(api_key=config.KEY, secret_key=config.SECRET)
 
 request_params = StockBarsRequest(
                         symbol_or_symbols="QQQ",
