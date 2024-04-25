@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+QQQ.txt
 # C extensions
 *.so
 config.py
